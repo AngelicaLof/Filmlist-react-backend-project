@@ -1,13 +1,197 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); 
+
+* {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color:rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*Homepage*/
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1p solid rgb(18, 50, 56);
+
+}
+
+.navbar h1 {
+  font-size: 40px;
+  color: rgb(191, 22, 39);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px;
+
+}
+
+.navbar a:hover {
+  color: rgb(142, 29, 40);
+}
+
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 15px;
+}
+
+
+.infofilm {
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+ align-items: center;
+ 
+  
+}
+
+
+.listtitle {
+ width: 250px;
+}
+
+.fullList a {
+  text-decoration: none;
+}
+
+
+/*Searchfield*/
+
+.mainsearch {
+ display: flex;
+ justify-content: center;
+ margin-top: 5px;
+ margin-bottom: 40px;
+}
+
+.searchheader {
+  margin-top: 8px;
+}
+
+.inputField {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 4px;
+  font-size: 17px;
+  
+}
+
+.category {
+  text-align: center;
+ padding: 5px;
+ font-size: 18px;
+}
+
+
+/*Buttons*/
+
+.edit {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.edit2 {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  margin: 8px;
+  border-radius: 4px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+
+
+.delete {
+  background-color: rgb(140, 8, 8);
+  color:rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  margin: 5px;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/*Edit and delete page*/
+
+.film-Id {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.editFilm {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.deletefilm {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.deleteHeader {
+  font-size: 35px;
+}
+
+
+.inputArea {
+  background-color: white;
+  color: black;
+}
+
+
+
+/*Create, Add film page*/
+
+.createForm {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.addHeader {
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer1 {
+  position: fixed;
+  bottom: 5px;
+  color: white;
 }

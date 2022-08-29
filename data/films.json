@@ -1,0 +1,54 @@
+{
+  "films": [
+    {
+      "title": "Tropic Thunder",
+      "genreId": "1",
+      "description": "A very funny movie with great actors.",
+      "id": 1
+    },
+    {
+      "title": "Exorcisten",
+      "genreId": 2,
+      "description": "This is a classic",
+      "id": 2
+    },
+    {
+      "title": "The Godfather",
+      "genreId": "3",
+      "description": "I dont think you really need a description for this epic movie",
+      "id": 3
+    },
+    {
+      "title": "Psycho",
+      "genreId": 2,
+      "description": "Oldie but goldie",
+      "id": 4
+    },
+    {
+      "title": "The Hangover",
+      "genreId": 1,
+      "description": "Makes you never wanna drink again",
+      "id": 5
+    },
+    {
+      "title": "Midsommar",
+      "genreId": "2",
+      "description": "scaryyyy",
+      "id": 11
+    }
+  ],
+  "genres": [
+    {
+      "genre": "comedy",
+      "id": 1
+    },
+    {
+      "genre": "horror",
+      "id": 2
+    },
+    {
+      "genre": "drama",
+      "id": 3
+    }
+  ]
+}
